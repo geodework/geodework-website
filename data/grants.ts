@@ -6,12 +6,15 @@ interface ILink {
 
 export type TCountry =
   | "Argentina"
+  | "China"
   | "Colombia"
   | "Croatia"
+  | "Czech"
   | "Denmark"
   | "Greece"
   | "Honduras"
   | "India"
+  | "Italy"
   | "Japan"
   | "Malaysia"
   | "Mexico"
@@ -19,6 +22,7 @@ export type TCountry =
   | "Romania"
   | "Serbia"
   | "Slovakia"
+  | "Switzerland"
   | "Taiwan"
   | "Thailand"
   | "Ukraine"
@@ -35,10 +39,140 @@ export interface IGrant {
   country: TCountry
 }
 
-export const lastUpdated = "2026-01-14"
+export const lastUpdated = "2026-04-06"
 
 // Sorted by descending approved time
 export const grantsData: IGrant[] = [
+  // March 25, 2026
+  {
+    project: { title: "Open Value 2026" },
+    description:
+      'A one-day summit (May 3, 2026) during the "Festival dell\'Economia" in Trento, Italy, focusing on the economic and infrastructural concept of "Open Value" in the modern economy, enabled by blockchain technology.',
+    links: [
+      {
+        title: "SpaghettETH",
+        url: "https://x.com/spaghettETH",
+      },
+    ],
+    country: "Italy",
+  },
+  // March 24, 2026
+  {
+    project: { title: "ctrl/shift 2026" },
+    description:
+      "ctrl/shift, organized by NapulETH, is a three-day event exploring AI, Quantum Computing, and Web3 taking place in Naples, Italy on June 13–15.",
+    links: [
+      {
+        title: "NapulETH",
+        url: "https://x.com/NapulETH/",
+      },
+    ],
+    country: "Italy",
+  },
+  // March 20, 2026
+  {
+    project: { title: "Road to ETHPrague" },
+    description:
+      "A year-round, local Ethereum community initiative in Prague. Monthly in-person gatherings create continuity for builders and newcomers, culminating each May in ETHPrague's hackathon and conference.",
+    links: [
+      {
+        title: "ETHPrague",
+        url: "https://ethprague.com/",
+      },
+    ],
+    country: "Czech",
+  },
+  // March 5, 2026
+  {
+    project: { title: "ETHMumbai 2026" },
+    description:
+      "ETHMumbai 2026 is a 1-day conference with 50 speakers and 500 attendees and a 3-day hackathon with 300 hackers, with key tracks: DeFi, Privacy, and AI.",
+    links: [
+      {
+        title: "ETHMumbai",
+        url: "https://www.ethmumbai.in/",
+      },
+    ],
+    country: "India",
+  },
+  // February 10, 2026
+  {
+    project: { title: "Ethereum Zuri 2026" },
+    description:
+      "Ethereum Züri 2026 (Apr 10–12, Zurich): 3 days of Ethereum dev talks + hands-on workshops + hackathon, ZK, L2s, tooling, security, protocol & d/acc.",
+    links: [
+      {
+        title: "Ethereum Switzerland Association",
+        url: "https://ethereumzuri.ch/",
+      },
+    ],
+    country: "Switzerland",
+  },
+  // February 9, 2026
+  {
+    project: { title: "Kolektyw3 Community Hub" },
+    description:
+      "Kolektyw3 is a curated Ethereum community hub in Warsaw delivering high-quality meetups, hands-on workshops, coworking sessions, and social events through structured programming and partner collaboration to strengthen Poland's builder ecosystem and accelerate Ethereum-native projects.",
+    links: [
+      {
+        title: "ETHWarsaw",
+        url: "https://x.com/ETHWarsaw",
+      },
+    ],
+    country: "Poland",
+  },
+  // February 2, 2026
+  {
+    project: { title: "muShanghai 2026" },
+    description:
+      "A month long pop-up city for global talents to meet and connect with Chinese founders and tap into Chinese tech ecosystem.",
+    links: [
+      {
+        title: "The Mu",
+        url: "https://x.com/themu_xyz",
+      },
+    ],
+    country: "China",
+  },
+  // January 28, 2026
+  {
+    project: { title: "Merge Conflict 2026 Hackathon" },
+    description:
+      "A Pan-India hybrid Web3-focused hackathon at IIT Roorkee enabling hands-on Ethereum development through real-world problem statements, workshops, and product-driven building for talent discovery and ecosystem growth.",
+    links: [
+      {
+        title: "MDG Space, IIT Roorkee",
+        url: "https://mdgspace.org/",
+      },
+    ],
+    country: "India",
+  },
+  // January 23, 2026
+  {
+    project: { title: "Ethereum Tegucigalpa 2026" },
+    description:
+      "Ethereum Tegucigalpa 2026 community initiatives in Tegucigalpa, Honduras, including meetups, workshops, hackathon, bootcamps, scholarship program and other online and in-person engagement with the local communities.",
+    links: [
+      {
+        title: "Ethereum Tegucigalpa",
+        url: "https://linktr.ee/ethereumtgu",
+      },
+    ],
+    country: "Honduras",
+  },
+  // January 16, 2026
+  {
+    project: { title: "StackTooDeep 2026" },
+    description:
+      "StackTooDeep is a 36-hour Ethereum focused hackathon in Roorkee for college students to build open-source dApps and protocol-level tooling through guided mentorship, cultivating long-term contributors to the Ethereum ecosystem.",
+    links: [
+      {
+        title: "Blockchain Society IIT Roorkee",
+        url: "https://x.com/BlocSocIITR",
+      },
+    ],
+    country: "India",
+  },
   // December 24, 2025
   {
     project: { title: "ETHTaipei 2026" },
