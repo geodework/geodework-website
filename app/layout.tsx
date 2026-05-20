@@ -67,7 +67,7 @@ export default function RootLayout({
                 style={{ textShadow: "0 0 1rem rgba(0,0,0,0.75)" }}
               >
                 <Link href="/about">About</Link>
-                <a href="http://www.localethereum.org/" target="_blank" rel="noopener noreferrer">Blog</a>
+                <Link href="http://www.localethereum.org/" hideArrow>Blog</Link>
                 <Link href="/grants">Grants</Link>
               </nav>
               <div className="relative">
