@@ -27,12 +27,14 @@ const HeroDock = () => {
             style={bottomLeftClipPath}
           >
             <span className="relative z-10 block transition-colors group-hover:text-primary">
-              <Link
-                href="/blog"
+              <a
+                href="http://www.localethereum.org/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex h-full w-full items-center justify-center px-1"
               >
                 Blog
-              </Link>
+              </a>
             </span>
             <div
               className="absolute inset-[2px] bg-white opacity-0 transition-opacity group-hover:opacity-100"

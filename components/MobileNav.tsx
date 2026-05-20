@@ -62,14 +62,16 @@ export default function MobileNav() {
               <span>About</span>
               <ArrowRight size={20} />
             </Link>
-            <Link
-              href="/blog"
+            <a
+              href="http://www.localethereum.org/"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={closeMenu}
               className="flex items-center justify-between border-b border-white pb-3 text-lg !text-white"
             >
               <span>Blog</span>
               <ArrowRight size={20} />
-            </Link>
+            </a>
             <Link
               href="/grants"
               onClick={closeMenu}
